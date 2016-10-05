@@ -1,0 +1,12 @@
+{
+    "name": "billowapp/sass-helpers",
+    "description": "Sass Helpers at Billow",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Warren Hansen",
+            "email": "warren@billow.co.za"
+        }
+    ],
+    "require": {}
+}
