@@ -13,11 +13,9 @@
   justify-content: center;
   flex: 1;
 }
-
 .flex-right {
   justify-content: flex-end;
 }
-
 // Background Classes
 .white-bg {
   background-color: #ffffff;
@@ -77,22 +75,18 @@
 .pad-t-1 {
   padding-top: 1rem;
 }
-
 .pad-tb-1 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 .pad-tb-2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 .pad-lr-1 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 .pad-lr-2 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -100,6 +94,9 @@
 // Margin Classes
 .mt {
   margin-top: .5rem;
+}
+.mb {
+  margin-bottom: .5rem;
 }
 .mb-1 {
   margin-bottom: 1rem;
