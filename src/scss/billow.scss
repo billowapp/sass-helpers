@@ -131,3 +131,11 @@
 .mb-2 {
   margin-bottom: 2rem;
 }
+
+form span.red {
+  position: relative;
+  top: -20px;
+  font-style: italic;
+  color: red;
+  font-size: .8rem;
+}
