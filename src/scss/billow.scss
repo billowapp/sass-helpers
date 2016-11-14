@@ -13,11 +13,15 @@
   justify-content: center;
   flex: 1;
 }
-
 .flex-right {
   justify-content: flex-end;
 }
-
+.v-center {
+  margin: 0rem auto 1.2rem auto;
+}
+.width-20 {
+  width: 20%;
+}
 // Background Classes
 .white-bg {
   background-color: #ffffff;
@@ -27,6 +31,9 @@
 }
 .grey-bg {
   background-color: #5a5a5a;
+}
+.lt-grey-bg {
+  background-color: #f9f9f9;
 }
 // horizontal lines, sized: 1 - 5
 .hl-1 {
@@ -71,32 +78,40 @@
 .pad-2 {
   padding: 2rem;
 }
+.pad-3 {
+  padding: 3rem;
+}
+.pad-4 {
+  padding: 4rem;
+}
+.pad-5 {
+  padding: 4rem;
+}
 .pad-t-1 {
   padding-top: 1rem;
 }
-
 .pad-tb-1 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 .pad-tb-2 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-
 .pad-lr-1 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 .pad-lr-2 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 // Margin Classes
-.mb-1 {
-  margin-bottom: 1rem;
+.m-0 {
+  margin: 0;
+}
+.mt {
+  margin-top: .5rem;
 }
 .mt-1 {
   margin-top: 1rem;
@@ -110,11 +125,29 @@
 .mt-4 {
   margin-top: 4rem;
 }
-.width-20 {
-  width: 20%;
+.mt-5 {
+  margin-top: 5rem;
 }
-.v-center {
-  margin: 0rem auto 1.2rem auto;
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb {
+  margin-bottom: .5rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.mb-4 {
+  margin-bottom: 4rem;
+}
+.mb-5 {
+  margin-bottom: 5rem;
 }
 .mr {
   margin-right: .5rem;
@@ -122,12 +155,10 @@
 .mr-1 {
   margin-right: 1rem;
 }
-.m-0 {
-  margin: 0;
+.ml {
+  margin-left: .5rem;
 }
-.mb-0 {
-  margin-bottom: 0;
-}
+
 .mb-2 {
   margin-bottom: 2rem;
 }
@@ -138,4 +169,8 @@ form span.red {
   font-style: italic;
   color: red;
   font-size: .8rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
 }
