@@ -196,3 +196,13 @@ form span.red {
 .ml-1 {
   margin-left: 1rem;
 }
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  margin: 0 0 1rem 0;
+  li {
+    padding: 0 .3rem;
+  }
+}
